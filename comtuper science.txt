@@ -1,0 +1,500 @@
+Q:pythonista
+A:welcome
+
+Q:syntax error
+A:python lost
+
+Q:python reserved word
+A:class is finally
+
+Q:python scripts
+A:.py
+
+Q:interactive versus script
+A:.py or interactive
+
+Q:python steps three()
+A:sequential steps/conditional steps/repeated steps
+
+Q:python variables name rules
+A:must start with a leeter or underscore/must consist of letters,numbers, and underscores/case sensitive
+
+Q:numeric expressions
+A:operator + - * / ** %
+
+Q:order od evaluation/operator precedence
+A:parenthesis/power/multiplication/addition/left to right
+
+Q:python type
+A:ee= 'sdfa' ee+1 = type error
+
+Q:several type of numbers python
+A:int, float
+
+Q:python type conversion
+A:int() float()
+
+Q:python integer division
+A:print(10/2) output = 5.0
+
+Q:python string conversion
+A:sval = '123' int =(sval)
+
+Q:python user input 
+A:nam = input('who are you')
+
+Q:python comments 
+A:#
+
+Q:python converting user input
+A:a = int(input('which floor'))+1
+
+Q:python comparison operators
+A: == < > !=
+
+Q:python one-way decision
+A:
+
+Q:python two-way decision
+A:
+
+Q:python nested decision
+A:
+
+Q:python multi-way
+A:
+
+Q:python visualize blocks
+A:
+
+Q:python multiple puzzels
+A:
+
+Q:python try/except structure
+A:you surround a dangerous section of code with try and except/ if the code in the try works-the except is skipped/if the code in the try fails-it jumps to the except section5
+
+Q:python  you look at the following text; it looks perfect but python is giving youu an 'indentation error' on the second print statement. what is the most likely reason.
+A:
+
+Q:python stored(and reused) steps
+A:
+
+Q:python m building own function
+A:def fds():
+
+Q:python arguments is a value we pass into the function as its input when we call the function
+A:
+
+Q:python we use arguments so we can direct the function to do different kinds of work when we call it ar times.
+A: we put the arguments in parantheses after the name of the function
+
+Q:python parameters.
+A:in the dunction defination. it is a handle that allow the code in the function to access the arguments for a particular function innovation.
+
+Q:python return values
+A:return a value to be used as the value of the function call in the calling expression. the return key keyword is used for this.
+
+Q:python inthe following Python code, which of the following is an "argument" to a function?
+Q:x = 'banana' y = max(x) print(y)
+A:x
+
+Q:python loops and iteration repeated steps./infinite loop
+A:
+
+Q:python  break/continue
+A:break get out /continue --back
+
+Q:python definite loop
+A: for i in [5,4,3,2,1]: print(i) print('sdf')
+
+Q:python definite loop
+A:definite loops have explicit iteration vatiables that change each time through a loop. these iteration vatiables move through the sequence or set.
+
+Q:python finding the largest value
+A:definite loop
+
+Q:python counting in a loop
+A:definite loop
+
+Q:python summing in a loop
+A:definite loop
+
+Q:python finding the average in a loop
+A:definite loop
+
+Q:python
+A:definite loop
+
+Q:python finding the smallest value
+A:definte loop if contional
+
+Q:python is/is none
+A:
+
+Q:python assignment 5.2 python for everyone 1
+A:
+
+Q:python data structure
+A:
+
+Q:python data structure look inside string
+A:zot[]
+
+Q:python data structure sting have longth
+A:lem function len()
+
+Q:python data structure looping through strings
+A:1/while/2/for statement definite loop
+
+Q:python data structure looping and count
+A:
+
+Q:python data structure looking deeper into"in"
+A:
+
+Q:python data structure slicing strings
+A:s[6:7]
+
+Q:python data structure string concatenation
+A:a = 'hello' b = a + ' there'
+
+Q:python data structure string comparison
+A:A<a
+
+Q:python data structure dir()
+A: capabinlity
+
+Q:python data structure searching a string
+A: .find('')
+
+Q:python data structure searching and replace
+A:.replace('','')
+
+Q:python data structure lstrip()/ .rstrip()/ .strip()
+A:
+
+Q:python data structure prefixes
+A: line = 'please have a nice day' line.startswith('please')  true//line.startswith('p') false
+
+Q:python data structure parsing and extracting
+A:data.find(' ',21)//从21开始找起来 21也算
+
+Q:python data structure in python3 all string are unicode
+A:
+
+Q:python data structure files openning a file
+A:handle  = open('','r/w'--mode) 
+
+Q:python data structure what is handle when files are missing
+A:
+
+Q:python data structure the newline character
+A:\n we use a special character called the newline to indicare qhen a lines end, newline is still one character-not two.
+
+Q:python data structure counting lines in a file
+A:for line in handle:
+
+Q:python data structure reading the whole file,
+A: fhand.read()
+
+python data structure searching through a file
+A: for line in fhand : if line.startswith(''):
+
+
+Q:python data structure each line from the file has a newline at the end \n
+A: \n print statement also adds a newline to each line.
+
+Q:python data structure how to fix the newline when seaching lines in the file
+A:rstrip().
+
+Q:python data structure skipping with continue
+A:using in to select lines, we can look for a string anywhere in a file as our selection criteria. if not 'dsf' in line: continue
+
+Q:python data structure prompt for file name
+A:fname = input('') fhandle = open(fname,'mode')
+
+Q:python data structure list
+A: friends = ['','','']
+
+Q:python data structure list constants
+A: list element can be any python object-even another list. list can be empty
+
+Q:python data structure list and definite loops-best pals
+A:
+
+Q:python data structure loking inside lists
+A: friends[0]
+
+Q:python data structure list are mutable
+A:strings are immutable we cannot chanfe the contents of a string- we must make a new string to make any change
+
+
+Q:python data structure list are mutable
+A:lists are mutable we can change an element of a list using the index operator
+
+Q:python data structure how long is a list
+A:len()
+
+Q:python data structure using the range function
+A: the range function returns a list of nunmbers that range from zero to one less than the parameters
+
+Q:python data structure list can be sliced using
+A: t = [1,132,21,314,34] t[1:3] = [132,21]
+
+Q:python data structure concatenating lsit
+A:	 直接加
+
+Q:python data structure list methods
+A: x = list() type(x) = dir(x) =
+
+Q:python data structure buildign a list from scratch
+A:stuff  = list() stuff.append('')
+
+Q:python data structure is something 
+A:some  = [1,234,12,3,13] 1 in some/True/ 16 in some/False
+
+Q:python data structure list are in order
+A:friends = ['adsf','dfsafdsa'] friends.sort()
+
+Q:python data structure build in functions and list
+A: len max min sum
+
+Q:python data structure best friends strings and lists
+A: abc = 'adfsfa dsffsa asdfsd' lis = abc.split()  line = 'adsfsa;sadfas;dsfa' line.split()/line.split(';')
+
+Q:python data structure what is not a collection
+A:
+
+Q:python data structure a story of two collection
+A:list() dictionary() alinear collection of values that stay in order, dictionary is a bag of values each with its own label.
+
+Q:python data structure dict
+A: dictionary is the python most powerful data collection, which allow us to do fast database-like operation in pyhthon/have different name in different language/ associative arrays -perl php/hashmap-java/property bag in .net/
+
+Q:python data structure dict 
+A:a = dict() a[''] = 12 a['']=1
+
+Q:python data structure dict no order
+A:we index the things we put in the dictonary with a lookup tag.
+
+Q:python data structure comparing lists and dictionaries 
+A: dict are like list except that they use keys instead of numbers to look up values.
+
+Q:python data structure dict literals(constants)
+A:key:value
+
+Q:python data structure empty dict
+A: 000 = {} print(ooo)
+
+Q:python data structure counting with dict
+A:
+
+Q:python data structure get method fot dict
+A: x = dict.get(name,o)
+
+Q:python data structure simplified counting with get()
+A:
+
+Q:python data structure counting pattern
+A: the general pattern to count the words in a line of text is to split.
+
+Q:python data structure definite loops and dictionaries
+A:
+
+Q:python data structure retrieving lists of keys and values
+A:jjj = {} print(list(jjj))/print(jjj.keys())/print(jjj.values())/print(jjj.items())
+
+Q:python data structure two iteration variables.
+A: we loop through the key-value pairs in a dict using two iteration variables each iteration the first variable is the the key and the second is the value for the key.
+
+Q:python data structure python for every one 9.4 assignment
+A:
+
+Q:python data structure tuples are like lists
+A:tuples are another kind of sequence that functions much like a listx = ('asfdfsa','asdfdsa','asdfsafas')
+
+Q:python data structure tuples are immutable
+A:you can not alter contents
+
+Q:python data structure things not to do with tuples
+A:sort(),append(),reverse()
+
+Q:python data structure a tale of two sequence
+A:t = tuple() dir(t) [counts,'index']
+
+Q:python data structure tuple are more efficient
+A:since pyhton does not have to build tuple structures to be modifiable, they are simpler an more efficient in terms of memory use and performance than lists so in our program we are making 'temporary variables' we prefer tuples over lists
+
+Q:python data structure tuples and dict
+A:items() returns a list of (key,value)tuples
+
+Q:python data structure tuples are comparable
+A:
+
+Q:python data structure sorting lists of tuples
+A:sorted(d.items())
+
+Q:python data structure usign sorted()/sort by values instead of key
+A: the top 10 most common words
+
+Q:python data structure most top 10 common words even shorter version
+A:10.2 assignment
+
+Q:python using python to access web data regular expression 14kinds
+A:quick guide ^ $ . \s \S * *? + +? aeiou ^xyz a-z0-9 ( )
+
+Q:python using python to access web data before use re you should 
+A: import re, re.research() si similar to using the find() method re.findall is similar to a combination of finding and slicing
+
+Q:python using python to access web data using re.search() like find()
+A: import re hand = open('mbox.txt') for line in hand: line  = line.rstrip() if re.search('From',line): print(line).
+
+Q:python using python to access web data using re.search() like startswith
+A:re.search('^From',line): print(line)
+
+Q:python using python to access web data re.search returns a True/False depending on whether the string matches the regular expression
+A: if we actually want the matching strings to be extracted, we use re.findall()
+
+Q:python using python to access web data re.findall() greedy matching 
+A:+/*
+
+Q:python using python to access web data non-greedy
+A:+? *?
+
+Q:python using python to access web data fine-tuning string extraction parentheses
+A: define the start and the stop of what string to extracted
+
+Q:python using python to access web data regex version
+A:
+
+Q:python using python to access web data even cooler regex version
+A:
+
+Q:python using python to access web data escape character
+A: if you want a special regular expression character to just behave normally(most of the time) you prefix it with'\'
+
+Q:python using python to access web data transport control protocol---TCP
+A:build on top of ip(internet protocol) assumes ip might lose some data-stores and retransmits data id it seems to be lost /handles flow control using a transmit window/provides a nice reliable pip
+
+Q:python access web data TCP connections/sockets
+A:
+
+Q:python access web data TCP poty numbers
+A:like telephone numbers.
+
+Q:python access web data common tcp ports
+A: telnet 23 ssh 22 http 80 https 443 smtp 25 imap pop dns ftp
+
+Q:python access web data sockets in python
+A: import socket myso  = socket.socket(,) myso.connect(('',80))
+
+Q:python access web data http
+A:hypertext transfer protocol
+
+Q:python access web data application protocol
+A:since tcp and python gives us a reliable socket what do we want to do with the socket? what problem do we want to solve? application P/mail/world wide web
+
+Q:python access web data HTTP
+A: the dominant application layer P on the internet/ invented for the web to retrieve html images documents etc.
+
+Q:python access web data getting data from the server 
+A:herf = value/get request/ data from the server /return html documents/browser formats it and display
+
+Q:python access web data making an http request
+A: get ...http/1.0
+
+Q:python access web data an http request in python
+A:12.2 later
+
+Q:python access web data http header
+A: etag last-modified cache control content type
+
+Q:python access web data ascII representing simple strings
+A: each character is represented by a number between 0 and 256 stored in 8 bits of memory
+
+Q:python access web data ord()
+A:fucntion tells us the numeric value of a simple ascii character
+
+Q:python access web data multi-byte characters
+A:to represent the wide range of character computer must hansdle we represent character with more than on byte/utf8 is recommended practice for encoding data to be exchanged between systems.
+
+Q:python access web data inpython3 all strings are unicode
+A:
+
+Q:python access web data python strings to bytes
+A: when we talk to an external resource like a network sockets we sends bytes so we need to encode python3 string in to encoding./when we read data from an external resource we must decode it based on the character.
+
+Q:python access web data using urllib in python
+A: since HTTP is so common we have a library that does all the socket work for us and makes web pages look like a file
+
+Q:python access web data urllib
+A:import urllib.request,urllib.parse,urllib.error
+
+Q:python access web data //like a file
+A:
+
+Q:python access web data//reading web pages
+A:
+
+Q:python access web data html so ugly
+A:sometimes re is not useful
+
+Q:python access web data what is web scraping
+A:search engines scrape web pages we call this spidering the web or web crawling
+
+Q:python access web data why scape
+A:pull data particularly social data//get your own data back out of some system that has no export capability//monitor a site for new information//spider the web to make a database for a search engine.
+
+Q:python access web data there is some controversy about web page scaping and some sites are a bit snippy about it
+A:republishing copyrighted informationis not allowed //violating terms of service is not allowed
+
+Q:python access web data the easy way ---web crawling
+A:beautiful soup
+
+Q:python access web data bs install
+A: from bs4 import BeautifulSoup
+
+Q:python access web data ignore SSL certificate errors
+A:
+
+Q:python access web data
+A:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
