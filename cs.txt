@@ -1,0 +1,924 @@
+Q:pythonista
+A:welcome
+
+Q:syntax error
+A:python lost
+
+Q:python reserved word
+A:class is finally
+
+Q:python scripts
+A:.py
+
+Q:interactive versus script
+A:.py or interactive
+
+Q:python steps three()
+A:sequential steps/conditional steps/repeated steps
+
+Q:python variables name rules
+A:must start with a leeter or underscore/must consist of letters,numbers, and underscores/case sensitive
+
+Q:numeric expressions
+A:operator + - * / ** %
+
+Q:order od evaluation/operator precedence
+A:parenthesis/power/multiplication/addition/left to right
+
+Q:python type
+A:ee= 'sdfa' ee+1 = type error
+
+Q:several type of numbers python
+A:int, float
+
+Q:python type conversion
+A:int() float()
+
+Q:python integer division
+A:print(10/2) output = 5.0
+
+Q:python string conversion
+A:sval = '123' int =(sval)
+
+Q:python user input 
+A:nam = input('who are you')
+
+Q:python comments 
+A:#
+
+Q:python converting user input
+A:a = int(input('which floor'))+1
+
+Q:python comparison operators
+A: == < > !=
+
+Q:python one-way decision
+A:
+
+Q:python two-way decision
+A:
+
+Q:python nested decision
+A:
+
+Q:python multi-way
+A:
+
+Q:python visualize blocks
+A:
+
+Q:python multiple puzzels
+A:
+
+Q:python try/except structure
+A:you surround a dangerous section of code with try and except/ if the code in the try works-the except is skipped/if the code in the try fails-it jumps to the except section5
+
+Q:python  you look at the following text; it looks perfect but python is giving youu an 'indentation error' on the second print statement. what is the most likely reason.
+A:
+
+Q:python stored(and reused) steps
+A:
+
+Q:python m building own function
+A:def fds():
+
+Q:python arguments is a value we pass into the function as its input when we call the function
+A:
+
+Q:python we use arguments so we can direct the function to do different kinds of work when we call it ar times.
+A: we put the arguments in parantheses after the name of the function
+
+Q:python parameters.
+A:in the dunction defination. it is a handle that allow the code in the function to access the arguments for a particular function innovation.
+
+Q:python return values
+A:return a value to be used as the value of the function call in the calling expression. the return key keyword is used for this.
+
+Q:python inthe following Python code, which of the following is an "argument" to a function?
+Q:x = 'banana' y = max(x) print(y)
+A:x
+
+Q:python loops and iteration repeated steps./infinite loop
+A:
+
+Q:python  break/continue
+A:break get out /continue --back
+
+Q:python definite loop
+A: for i in [5,4,3,2,1]: print(i) print('sdf')
+
+Q:python definite loop
+A:definite loops have explicit iteration vatiables that change each time through a loop. these iteration vatiables move through the sequence or set.
+
+Q:python finding the largest value
+A:definite loop
+
+Q:python counting in a loop
+A:definite loop
+
+Q:python summing in a loop
+A:definite loop
+
+Q:python finding the average in a loop
+A:definite loop
+
+Q:python
+A:definite loop
+
+Q:python finding the smallest value
+A:definte loop if contional
+
+Q:python is/is none
+A:
+
+Q:python assignment 5.2 python for everyone 1
+A:
+
+Q:python data structure
+A:
+
+Q:python data structure look inside string
+A:zot[]
+
+Q:python data structure sting have longth
+A:lem function len()
+
+Q:python data structure looping through strings
+A:1/while/2/for statement definite loop
+
+Q:python data structure looping and count
+A:
+
+Q:python data structure looking deeper into"in"
+A:
+
+Q:python data structure slicing strings
+A:s[6:7]
+
+Q:python data structure string concatenation
+A:a = 'hello' b = a + ' there'
+
+Q:python data structure string comparison
+A:A<a
+
+Q:python data structure dir()
+A: capabinlity
+
+Q:python data structure searching a string
+A: .find('')
+
+Q:python data structure searching and replace
+A:.replace('','')
+
+Q:python data structure lstrip()/ .rstrip()/ .strip()
+A:
+
+Q:python data structure prefixes
+A: line = 'please have a nice day' line.startswith('please')  true//line.startswith('p') false
+
+Q:python data structure parsing and extracting
+A:data.find(' ',21)//从21开始找起来 21也算
+
+Q:python data structure in python3 all string are unicode
+A:
+
+Q:python data structure files openning a file
+A:handle  = open('','r/w'--mode) 
+
+Q:python data structure what is handle when files are missing
+A:
+
+Q:python data structure the newline character
+A:\n we use a special character called the newline to indicare qhen a lines end, newline is still one character-not two.
+
+Q:python data structure counting lines in a file
+A:for line in handle:
+
+Q:python data structure reading the whole file,
+A: fhand.read()
+
+python data structure searching through a file
+A: for line in fhand : if line.startswith(''):
+
+
+Q:python data structure each line from the file has a newline at the end \n
+A: \n print statement also adds a newline to each line.
+
+Q:python data structure how to fix the newline when seaching lines in the file
+A:rstrip().
+
+Q:python data structure skipping with continue
+A:using in to select lines, we can look for a string anywhere in a file as our selection criteria. if not 'dsf' in line: continue
+
+Q:python data structure prompt for file name
+A:fname = input('') fhandle = open(fname,'mode')
+
+Q:python data structure list
+A: friends = ['','','']
+
+Q:python data structure list constants
+A: list element can be any python object-even another list. list can be empty
+
+Q:python data structure list and definite loops-best pals
+A:
+
+Q:python data structure loking inside lists
+A: friends[0]
+
+Q:python data structure list are mutable
+A:strings are immutable we cannot chanfe the contents of a string- we must make a new string to make any change
+
+
+Q:python data structure list are mutable
+A:lists are mutable we can change an element of a list using the index operator
+
+Q:python data structure how long is a list
+A:len()
+
+Q:python data structure using the range function
+A: the range function returns a list of nunmbers that range from zero to one less than the parameters
+
+Q:python data structure list can be sliced using
+A: t = [1,132,21,314,34] t[1:3] = [132,21]
+
+Q:python data structure concatenating lsit
+A:	 直接加
+
+Q:python data structure list methods
+A: x = list() type(x) = dir(x) =
+
+Q:python data structure buildign a list from scratch
+A:stuff  = list() stuff.append('')
+
+Q:python data structure is something 
+A:some  = [1,234,12,3,13] 1 in some/True/ 16 in some/False
+
+Q:python data structure list are in order
+A:friends = ['adsf','dfsafdsa'] friends.sort()
+
+Q:python data structure build in functions and list
+A: len max min sum
+
+Q:python data structure best friends strings and lists
+A: abc = 'adfsfa dsffsa asdfsd' lis = abc.split()  line = 'adsfsa;sadfas;dsfa' line.split()/line.split(';')
+
+Q:python data structure what is not a collection
+A:
+
+Q:python data structure a story of two collection
+A:list() dictionary() alinear collection of values that stay in order, dictionary is a bag of values each with its own label.
+
+Q:python data structure dict
+A: dictionary is the python most powerful data collection, which allow us to do fast database-like operation in pyhthon/have different name in different language/ associative arrays -perl php/hashmap-java/property bag in .net/
+
+Q:python data structure dict 
+A:a = dict() a[''] = 12 a['']=1
+
+Q:python data structure dict no order
+A:we index the things we put in the dictonary with a lookup tag.
+
+Q:python data structure comparing lists and dictionaries 
+A: dict are like list except that they use keys instead of numbers to look up values.
+
+Q:python data structure dict literals(constants)
+A:key:value
+
+Q:python data structure empty dict
+A: 000 = {} print(ooo)
+
+Q:python data structure counting with dict
+A:
+
+Q:python data structure get method fot dict
+A: x = dict.get(name,o)
+
+Q:python data structure simplified counting with get()
+A:
+
+Q:python data structure counting pattern
+A: the general pattern to count the words in a line of text is to split.
+
+Q:python data structure definite loops and dictionaries
+A:
+
+Q:python data structure retrieving lists of keys and values
+A:jjj = {} print(list(jjj))/print(jjj.keys())/print(jjj.values())/print(jjj.items())
+
+Q:python data structure two iteration variables.
+A: we loop through the key-value pairs in a dict using two iteration variables each iteration the first variable is the the key and the second is the value for the key.
+
+Q:python data structure python for every one 9.4 assignment
+A:
+
+Q:python data structure tuples are like lists
+A:tuples are another kind of sequence that functions much like a listx = ('asfdfsa','asdfdsa','asdfsafas')
+
+Q:python data structure tuples are immutable
+A:you can not alter contents
+
+Q:python data structure things not to do with tuples
+A:sort(),append(),reverse()
+
+Q:python data structure a tale of two sequence
+A:t = tuple() dir(t) [counts,'index']
+
+Q:python data structure tuple are more efficient
+A:since pyhton does not have to build tuple structures to be modifiable, they are simpler an more efficient in terms of memory use and performance than lists so in our program we are making 'temporary variables' we prefer tuples over lists
+
+Q:python data structure tuples and dict
+A:items() returns a list of (key,value)tuples
+
+Q:python data structure tuples are comparable
+A:
+
+Q:python data structure sorting lists of tuples
+A:sorted(d.items())
+
+Q:python data structure usign sorted()/sort by values instead of key
+A: the top 10 most common words
+
+Q:python data structure most top 10 common words even shorter version
+A:10.2 assignment
+
+Q:python using python to access web data regular expression 14kinds
+A:quick guide ^ $ . \s \S * *? + +? aeiou ^xyz a-z0-9 ( )
+
+Q:python using python to access web data before use re you should 
+A: import re, re.research() si similar to using the find() method re.findall is similar to a combination of finding and slicing
+
+Q:python using python to access web data using re.search() like find()
+A: import re hand = open('mbox.txt') for line in hand: line  = line.rstrip() if re.search('From',line): print(line).
+
+Q:python using python to access web data using re.search() like startswith
+A:re.search('^From',line): print(line)
+
+Q:python using python to access web data re.search returns a True/False depending on whether the string matches the regular expression
+A: if we actually want the matching strings to be extracted, we use re.findall()
+
+Q:python using python to access web data re.findall() greedy matching 
+A:+/*
+
+Q:python using python to access web data non-greedy
+A:+? *?
+
+Q:python using python to access web data fine-tuning string extraction parentheses
+A: define the start and the stop of what string to extracted
+
+Q:python using python to access web data regex version
+A:
+
+Q:python using python to access web data even cooler regex version
+A:
+
+Q:python using python to access web data escape character
+A: if you want a special regular expression character to just behave normally(most of the time) you prefix it with'\'
+
+Q:python using python to access web data transport control protocol---TCP
+A:build on top of ip(internet protocol) assumes ip might lose some data-stores and retransmits data id it seems to be lost /handles flow control using a transmit window/provides a nice reliable pip
+
+Q:python access web data TCP connections/sockets
+A:
+
+Q:python access web data TCP poty numbers
+A:like telephone numbers.
+
+Q:python access web data common tcp ports
+A: telnet 23 ssh 22 http 80 https 443 smtp 25 imap pop dns ftp
+
+Q:python access web data sockets in python
+A: import socket myso  = socket.socket(,) myso.connect(('',80))
+
+Q:python access web data http
+A:hypertext transfer protocol
+
+Q:python access web data application protocol
+A:since tcp and python gives us a reliable socket what do we want to do with the socket? what problem do we want to solve? application P/mail/world wide web
+
+Q:python access web data HTTP
+A: the dominant application layer P on the internet/ invented for the web to retrieve html images documents etc.
+
+Q:python access web data getting data from the server 
+A:herf = value/get request/ data from the server /return html documents/browser formats it and display
+
+Q:python access web data making an http request
+A: get ...http/1.0
+
+Q:python access web data an http request in python
+A:12.2 later
+
+Q:python access web data http header
+A: etag last-modified cache control content type
+
+Q:python access web data ascII representing simple strings
+A: each character is represented by a number between 0 and 256 stored in 8 bits of memory
+
+Q:python access web data ord()
+A:fucntion tells us the numeric value of a simple ascii character
+
+Q:python access web data multi-byte characters
+A:to represent the wide range of character computer must hansdle we represent character with more than on byte/utf8 is recommended practice for encoding data to be exchanged between systems.
+
+Q:python access web data inpython3 all strings are unicode
+A:
+
+Q:python access web data python strings to bytes
+A: when we talk to an external resource like a network sockets we sends bytes so we need to encode python3 string in to encoding./when we read data from an external resource we must decode it based on the character.
+
+Q:python access web data using urllib in python
+A: since HTTP is so common we have a library that does all the socket work for us and makes web pages look like a file
+
+Q:python access web data urllib
+A:import urllib.request,urllib.parse,urllib.error
+
+Q:python access web data //like a file
+A:
+
+Q:python access web data//reading web pages
+A:
+
+Q:python access web data html so ugly
+A:sometimes re is not useful
+
+Q:python access web data what is web scraping
+A:search engines scrape web pages we call this spidering the web or web crawling
+
+Q:python access web data why scape
+A:pull data particularly social data//get your own data back out of some system that has no export capability//monitor a site for new information//spider the web to make a database for a search engine.
+
+Q:python access web data there is some controversy about web page scaping and some sites are a bit snippy about it
+A:republishing copyrighted informationis not allowed //violating terms of service is not allowed
+
+Q:python access web data the easy way ---web crawling
+A:beautiful soup
+
+Q:python access web data bs install
+A: from bs4 import BeautifulSoup
+
+Q:python access web data ignore SSL certificate errors
+A:
+
+Q:python access web data data on the web
+A:with the http request/response well understood and well supported there was a natural move toward exchanging data between programs using these protocols/we needed to come up with an agreed way to represent data going between applications and across networks/there are two commonly used formats---xml---json
+
+Q:python access web data sending data across the 'net'
+A:python dict()----java hash map
+
+Q:python access web data agreeing on a wire format
+A:python dictionary serialize <person> <name>....de-serialize java hashmap
+
+Q:python access web data xml 'elements' or nodes
+A:simple elements//complex element
+
+Q:python access web data extebsible markup language
+A: primary purpose is to help information system share structured data//it started as a simplified subset of the standard generalized markup language sgml.and is designed to be relatively human-legible
+
+Q:python access web data xml basixs
+A:start end self closing tag//text content//attribute
+
+Q:python access web data white space 
+A:line ends do not matter whiet space is generally discarded on text elements we indent only to be readable
+
+Q:python access web data xml as a tree
+A:
+
+Q:python access web data xml text and attributes
+A:
+
+Q:python access web data xml as paths
+A:
+
+Q:python access web data xml schema1
+A:description of the legal format of an xml documents
+
+Q:python access web data xml schema2
+A:expressed in terms of constraints on the structure and content of documents
+
+Q:python access web data xml schema3
+A:often used to specify a contract between systems --my system will only accept xml that conforms to this particular schema
+
+Q:python access web data xml schema 4 if a particular piece of xml meets the specification of the schema it is said to validate
+A:
+
+Q:python access web data many xml schema languages
+A:document type definition(DTD)
+
+Q:python access web data standaed generalzied markup language(sgml)
+A:
+
+Q:python access web data xml schema from w3c xsd
+A:xsd xml schema w3c spec//we will focus on the www consortium version//it is often called w3c schema because schema is considered generic//more commonly it is called xsd because the file names end in .xsd
+
+Q:python access web data parsing xml
+A:import xml.etree.ElementTree as ET
+
+Q:python access web data javascript object notation
+A:json--douglas crockford --'discovered' json// object literal notation in javascript
+
+Q:python access web data import json
+A:data '''{} json represents data as nested lists and dictionaries
+
+Q:python access web data json history
+A:the earliest instance i found of js being used as a data interchange format was at netscape in 1996.so it seems like it is an inevitable sort of representation for data, at least data that is inteded to be comsumed by programmig languages.the simplest possible specification for how to structure data and put it on the wire.---json
+
+
+Q:python access web data ajax
+A:developd a platform for doing applications which could be delivered through unmodified web browsers what today is called ajax. in2001 it was king of a radical idea.json idea to communicating stuff back and forth
+
+Q:python access web data xml vs json
+A:the thing i never understood about xml for data interchange.you have got a query,you send it to the server, it give it to the database. and you get back this xml thing. then you have to send queries to that in order to get the data out of it.//
+
+
+Q:python access web data why json
+A:why cant you just give it to me in a form where i know what it is and i can use it immediately. and so that was the main benefit of json.
+
+Q:python access web data service oriented approach
+A:most non-trivial web application use services//they use services from other applications .credit card charge . hotel reservation systems//services publish the rules applications must follow to make use of the service.(api)
+
+Q:python access web data my grid
+A:
+
+Q:python access web data api security and rate limiting 
+A:the compute resources to run these apis are not free/the data provided by these api is usually valuable//the data providers might limit the number of requests per ady demand an api 'key' or even charge for usage//they might change the rules as things progress.
+
+Q:python using databases with python unicode object
+A: an object is a bit of self-contained code and data //a key aspect of the object approach is to break th eprobelm into smaller understandable parts(divide and conquer)// objects have boundaries that allow us to ignore un-needed detail//we have been using objects all along: string objects, integer objects, dicitionary objects, list objects..
+
+Q:python welcome to using databases with python terminology//class//instance//method
+A:
+
+Q:python welcome to using databases with python some python objects
+A:
+
+Q:python welcome to using databases with python we can use dir() to find the capabilities of our newly created class
+A:
+
+Q:python welcome to using databases with python object lifecycle
+A: objects are created used and dicarded// we have special blocks of code that get called ant the moment of creation---constructor//at the moment of destruction---deestructor//constructor are used a lot,,destructor are seldom used
+
+Q:python welcome to using databases with python constructor
+A:the primary purpose of the constructor is to set up sp,e instance variables to have th eproper initial values when the object is created.
+
+Q:python welcome to using databases with python inheritance
+A: when we make a new class-we can reuse an existing class and inherit all the capabilities of an existing class and then add our own little bit to make out new class// another form of store and reuse//write once-reuse many times//the new class child has all the capabilities of the old class (parent) and then some more
+
+Q:python using databases terminology inheritance
+A: subclasses are more specialized version of a class which inherit attributes and behaviros from their parent classes and can introduce theri own
+
+Q:python using databases relatioanl databases
+A:relatioanl databases model data by storing rows and columns in tables. the power of the relational database lies in its ability to efficiently retrieve data from thoese tables and in particular where there are multiple tables and the relationships between those tables involved in the query
+
+Q:python using databases terminology//database //relation//tuple//atrribute//
+A:columns--attributes//rows---relationships
+
+Q:python using databases sql
+A:sql is the languages we use to issue commands to the database
+
+
+Q:python using databases create a table//retrieve some data //insert data//delete data
+A:
+
+Q:python using databases two roles in large projects---/developer
+A:application developer-builds the logic for the application  the look and feel of the application monitors the application for problems
+
+Q:python using databases database admin
+A: monitors and adjusts the database as the program runs in production
+
+Q:python using databases often both people participate in the building od the data model
+A:large project structure---15.2
+
+Q:python using databases data analysis structure
+A:
+
+Q:python using databases database model
+A: database model or db schema is the strucrure or format of a database. descirbed in a formal language supoorted by the db management system. in other words a db is the application of a data model when used in conjunction with a databse management system.
+
+Q:python using databases common db system
+A:sql mysql sqlserver...postgress sqlite
+
+Q:python using databases start simple --a single table
+A:CREATE TABLE Users(name VARCHAR(128), email VARCHAR(128))
+
+Q:python using databases sql insert
+A: INSERT INTO Users(name,email) VALUES('asd','asfsda@dfas.com')
+
+Q:python using databases sql delete
+A: DELETE FROM Users WHERE email = 'asdfas@asfa.com'
+
+Q:python using databases sql update
+A:UPDATE Users SET name = '' WHERE email = ''
+
+Q:python using databases rtrieving records select
+A:SELEXT * FROM Users WHERE email = ''
+
+Q:python using databases sorting with order by
+A:SELECT * FROM Users ORDER BY email//name
+
+Q:python using databases sqlite python example
+A:15.4 import sqlite3//
+
+Q:python using databases building a data model
+A:drawign a picture of the data objects for our application and then figuring out how to represent the objects and their relationships//basic rule donnot put the sam string data in twice--use a relationship instead//when there is one thing in the real-world there should be one copy of that thing in the database.
+
+Q:python using databases table primary key logical key foreign key
+A:
+
+Q:python using databases reconstructing data with JOIN
+A:
+
+Q:python using database On clause gives all possible combiantion of rows
+A:
+
+Q:python using databases worked example xml---sqlite
+A:import eml.etree.ElementTree as ET// import sqlite3
+
+
+Q:python using databases many to many relationship
+A:somtimes we need to model a relationship taht is many to-many//we needed to add a connection table with two foreign keys// there is usally no seperate primary key
+
+Q:python using databases start with fresh database worked example roster.py many to many
+A:15.9
+
+Q:python using databases multi-step data analysis
+A:
+
+Q:html5 the basic--syntax and semantics//accessibility getting started
+A:
+
+Q:html5 week one focus os on question
+A:what happens when you type an address into a url
+
+Q:html5 wekk one question2
+A:what types of tools you need to code//what is html5
+
+Q:html5 week two questions
+A:a little bit of theory // a lot of code// the dom//contxtual tags and headings//links images and lists//tables multimedia
+
+Q:html5 week 3 putting it together
+A:validating your code//domain name registrationand web hosting
+
+Q:html5 final project 
+A:create a syntacically valid multipage website.must pass w3c validation// must pass wave accessibility review
+
+Q:html5 who is this class for 
+A:this class is for the complete beginner //this class is for those who did not build a computer in theri basement when they were 12 years old
+
+Q:html5 phd in cs//two decades of teaching experience 
+A:
+
+Q:html5 this wd4e 
+A: leave with the ability to write and understand html5 code not as a web developer
+
+Q:html5 what is html
+A:stands for hypertext markup language
+
+
+Q:html5 markup languaes are not same as programming languages they use tags to annotate documents
+A:in html the tags indicate where headings images, lists links line breaks, and other components should go.
+
+Q:html5 html files.
+A:html is similar to english so you can understand it even if you do not know much about it.
+
+Q:html5 learning html 
+A:in the beginning you worry about syntax--//whats tags are there//did i remember to end my tag//
+
+Q:html5 later you will worry about semantics
+A:is there a tag that better conveys the meaning i am trying to get across// if someone is searching my page can they find waht they need and acess it easily?
+
+Q:html5 mosaic as the first graphical browser
+A:www proliferates at a 341.634% annual growth rate of service traffic
+
+Q:html5 mosiac had challenge though in the form of netscape1994 internet explorer 1995 and others.
+A:
+
+Q:html5 the browser war.//web standards
+A:IETF w3c wai
+
+Q:html5 evolution of browsers
+A:text based -- 1990-1994//93 mosaic images//cross-browser compatibility falls apart 95-99//00-05 browsers move toward seperating content from style//05-08 html css becomes new standards
+
+Q:html5 where are we now 
+A:html5 is a cooperation between w3c and the web hypertext application technology working group//establish guidelines --new features should be based on html,css the dom and js/ reduce the need for external plugins e.g.flash/more markup to replace scripting/html5 should be device independent
+
+Q:html5 client/server relationshio
+A:servers machines that hold shared resources//always connected to the network
+ 
+Q:html5 request/respinc=se cycle
+A:this is waht happens when your computer the client requests a page and a server responds with appropriate filess
+
+Q:html5 uniform resource locator
+A:
+
+
+Q:html5 protocols
+A:
+
+Q:html5 domain names
+A:
+
+Q:html5 ip address and the domain name server dns
+A:internet protocol ersion 4 ipv4 uses number format of .. to identify each domain... can represent over 4 billion unique combination
+
+Q:html5 dns looks up the domain the returns the ip address.
+A:
+
+Q:html5 once ip address is determined the browser creates an http requests
+A: lots of hodden information in this request
+
+
+Q:html5 lots of hidden information in this request
+A:headers cookies form data etc..
+
+Q:html5 a ew protocol ip version 6 will increse the number of combinations 2^128
+A:high level domain name ecamples.
+
+Q:html5 the document object model DOM
+A:basis of html5 is new features should be based on html css the dom, and javascript...'//dom proveide common tree-like structure that all pages should follow//computer scientists love trees because you can test them
+
+Q:html5 html id builf on the dom
+A:three parts of a well-formed document-doctype version of html that you will be using//head metadata//body--displayable content.
+
+Q:html5 head 
+A:additional information used by the browser--meta data-language title//supporting files-js,styling, add-ons//other than title,meta-data is not displayed
+
+Q:html5 body 
+A:bulk of your page//important to write well formatted tree loke code//most of the content is displayed by the brower, but there may be some meta-data too.
+
+Q:html5 html tags
+A: i can not teach you all of the tags///i can not teach you all of the tags//you dont want me to teach you all of the tags
+
+Q:html5 tags
+A:tags have a beginning and an end//some tafs have attributes
+
+Q:html5 one of the most important attributes of an element is its display. the two most most common are block and inline
+A:block (can take width and height)--newline is inserted before and after. e.g it takes up whole width
+
+Q:html5 inline can not take width and height
+A:only uses as much space as needed to contain the element.
+
+Q:html5 common tags
+A:headings(block) <h1>....these tags have syntax and semantics//paragraphs(block) <p> should only contain inline elements //divs(block)<div> generic section that is larger than a paragraph.
+
+Q:html5 more tags
+A:order lists//unordered lists//line breaks
+
+Q:html5 attributes
+A: attributes provide additional information about an element//always specified in the start tag//attributes come in name/value pairs//
+
+Q:html5 images
+A:images(inline) ,img src = "mypicture,jpg" alt =  "image of colleen"/>// images rarely work the forst time// show a broken link, too big too small//save yurself heartache and size/carefully name your pixture befire you use it.
+
+
+Q:html5 images 
+A:image filename info for screen readers//broken links//display on hover//extra formatting(height,width, position
+
+Q:html5 more aatributes
+A: as you learn the tags, you learn their specific attributes.some apply to any tag//class-applies special properties to goups of elements//ids,specifies a unique id to one element on the page//style-specifies a certain visual style(avoid this one!!)//accesskey ashortcut key to activate an element
+
+Q:html5 special entities
+A:tags always start with a bracket<what if you want the browser to display a bracket, not start a tag.
+
+Q:html5 special entities
+A:&lt; //gt//copy//nbsp//cent//amp
+
+Q:html5 how to design
+A: the most important step in web design is the design,you need a clear picture of what you want to create, before you can begin coding.
+
+Q:html5 using semantic tags
+A:in the beginning insert dramatic music of your choice.. there was div
+
+Q:html5 div was a way to group related content togethern
+A:divs almost always had special classes/ids associated with them <div class = "header">...</div>//<div class = "section"> </div> <div class = "footer">//...</div>
+
+Q:html5 a gourp of introductory or navigational aids:title,nvaigation links
+A:not to be confused with <head> or the different headings.
+
+
+Q:html5 <nav> a section of the page taht links to other pages or to parts within the page.
+A:often found in the <header>tag
+
+Q:html5 footer a section that contains info such as copyright data,related documents and links to social media.
+A:typically at the bottom of the pagee, but jnot required
+
+
+Q:html5 more senabtics than <img>. can include: caption//multiple multi media resources
+A:
+
+Q:git install
+A:sudo yum install git//apt-get install git
+
+Q:git user information
+A:git config --global user.name ""
+
+Q:git uer informatuon
+A:git config --global user.email //global core.editor emacs//git config --list/git help-(git help config)
+
+Q:git init
+A:git init//git add *.c-git add ..//git commit -m ""
+
+Q:git clone https://github.com
+A:
+
+Q:git status
+A:git status -s	/////
+
+Q:git //cat .gitignore
+A:
+
+Q:git diff
+A:git diff --cached//git diff --staged
+
+Q:git rm --cached ...file name
+A:
+
+Q:git mv file_form file_to
+A:
+
+Q:git log
+A:
+
+Q:git log -p//-2
+A:-p显示每次提交的差异//-2 两个
+
+Q:git log --stat
+A:
+
+Q:git log --pretty=oneline
+A:
+
+Q:git git log --pretty=format:"%h - %an, %ar : %s" 
+A:
+
+Q: github prohit2 48page
+A:
+
+Q: github ammend
+A:$ git commit -m 'initial commit' $ git add forgotten_file $ git commit --amend
+
+Q: git reset ..
+A:
+
+Q: git checkout -- 
+A:
+
+Q: git remote -v
+A:
+
+Q: git remote add pd http://
+A:
+
+Q: git git fetch pd
+A:
+
+Q: git push origin master
+A:
+
+Q: git remote show origin
+A:
+
+Q: git remote add my https://github.com/johnbigidea/what
+A:
+
+Q: git remote rename my my2
+A:
+
+Q: git tag (-l)
+A:
+
+Q: git show (tag name)
+A:
+
+Q: html5 using semantic tags
+A:in th beginning there was div//<div> was a way to group related content together//divs almost always had special classes/ids associated with them
+
+Q: html5 minium requirements
+A:create a page called index,html//page should utilize header,main and footer elements. these elements should bite be empty//make sure the page validates
+
+Q: html5 start with a shell
+A:doctype/meta-data//displayable content
+
+Q: html5 iamges it is more than the tag
+A:many file types are widely supported//jpeg gif and png/svg/bmpa are additional options//file extensions must be included//every image must be downloaded, so size can be a factor//every image requires an http request.
+
+Q: html5 image sizes
+A:when you link to an image the browser displays the image as big or small as the file//this size is rarely optimal//quick solutions-change file,use width/height attributes/
+
+Q: html5 using an editor
+A:editors can be used to permanently change the size of the image. only works on local files. built-in software for this inclues preview(mac) and pain(windows)
+
+Q: html5  favicons
+A:you can put image/logo/icon next to the title of your page(in the tab)//must go in <head> section
+
+Q: html5 provides a textual alternative to non-text content
+A:read by screen readers//displayed in place of images//
+
+Q: html5 be accurate//be succint//do not be redundant//do not include picture of graphic of ...
+A:creating good alt text
+
+Q: html5 empty alt text
+A:it is ok to leave alt text empty/do not skip the alt attruibute though
+
+Q: html5 links are what make the web a web
+A:the interlinked nature of the web leads to knowledge that search engines appear to have
+
+Q: html5 anchor links
+A:
