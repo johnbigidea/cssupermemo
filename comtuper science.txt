@@ -1,4 +1,4 @@
-Q:pythonista
+Q:pythonista hello
 A:welcome
 
 Q:syntax error
